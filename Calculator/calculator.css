@@ -1,0 +1,55 @@
+.body
+{
+    background-color: #eeee;
+}
+.wrapper
+{
+    width: 25%;
+    padding: 10px;
+    border: 3px solid black;
+    margin: 20px auto;
+    border-radius: 20px;
+    background-color: rgba(205, 205,235, 75);
+}
+.container
+{
+    padding: 10px;
+    height: 400px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-gap :10px;
+}
+.screen
+{
+    background-color: white;
+    display: grid;
+    border-radius: 10px;
+    border: 3px solid black;
+    height: 150px;
+}
+.button
+{
+    background-color: royalblue;
+    border: none;
+    text-align: center;
+    padding: 40%;
+    border-radius: 5px;
+}
+.button:hover
+{
+    background-color: white;
+}
+#previousnumber
+{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+}
+#currentnumber
+{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+}
